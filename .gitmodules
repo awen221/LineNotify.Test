@@ -1,0 +1,8 @@
+[submodule "Submodules/LineNotify"]
+	path = Submodules/LineNotify
+	url = https://github.com/awen221/LineNotify.git
+	branch = master
+[submodule "Submodules/LineNotify.Interface"]
+	path = Submodules/LineNotify.Interface
+	url = https://github.com/awen221/LineNotify.Interface.git
+	branch = master

@@ -8,8 +8,10 @@
             try
             {
                 {
-                    var token = "";
-                    var message = "測試訊息";
+                    Console.Write("input token：");
+                    var token = Console.ReadLine();
+                    Console.Write("message：");
+                    var message = Console.ReadLine();
 					
                     var api = new api();
                     var Result = api.notify(token, "GetResult" + message);
