@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNotify.Test", "LineNotify.Test\LineNotify.Test.csproj", "{052535B4-0662-4895-88E7-74DEE84BD30E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{F795AA1F-C353-412F-ACFB-77820570E2B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNotify", "Submodules\LineNotify\LineNotify.csproj", "{9B6402AE-3748-4D2C-909B-54F5C3D8D392}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LineNotify.Interface", "Submodules\LineNotify.Interface\LineNotify.Interface.shproj", "{17FBD76D-A188-46A0-800E-255EBA2B59E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052535B4-0662-4895-88E7-74DEE84BD30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052535B4-0662-4895-88E7-74DEE84BD30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052535B4-0662-4895-88E7-74DEE84BD30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052535B4-0662-4895-88E7-74DEE84BD30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B6402AE-3748-4D2C-909B-54F5C3D8D392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6402AE-3748-4D2C-909B-54F5C3D8D392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6402AE-3748-4D2C-909B-54F5C3D8D392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6402AE-3748-4D2C-909B-54F5C3D8D392}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B6402AE-3748-4D2C-909B-54F5C3D8D392} = {F795AA1F-C353-412F-ACFB-77820570E2B7}
+		{17FBD76D-A188-46A0-800E-255EBA2B59E3} = {F795AA1F-C353-412F-ACFB-77820570E2B7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {989A9ADD-A58D-4122-B533-0FDD0712F91D}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Submodules\LineNotify.Interface\LineNotify.Interface.projitems*{17fbd76d-a188-46a0-800e-255eba2b59e3}*SharedItemsImports = 13
+		Submodules\LineNotify.Interface\LineNotify.Interface.projitems*{9b6402ae-3748-4d2c-909b-54f5c3d8d392}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
